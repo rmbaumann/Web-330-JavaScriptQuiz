@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
+body{
+  color:#312F2F;
+  height: 100%;
+  width: 100%;
+  font: 'Poppins', sans-serif;
+  padding-top: 4rem;
+}
+
+.navbar-dark {
+  background-color: black !important;
+}
+
+.navbar-nav li {
+  padding-right: 10px;
+}
+
+.nav-link {
+  font-size: 1.1em !important;
+}
+
+#btnNext{
+  background:#003F91;
+  color:white;
+}
+
+pre{
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  text-align: justify;
+}
+
+#answer-button-grid {
+  margin: 0 auto;
+}
+.btn-secondary {
+  background-color: #003f91;
+  color: #FFFDFD;
+  border: none;
+  font-size: 100%;
+}
+
+.btn-secondary:hover {
+  color: white;
+}
+
+.btn {
+  color: #003366
+}
+
+footer p {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+/**
+  The following CSS is for prototyping only
+**/
+#question-ask {
+  font-size: 150%;
+  width: 75%;
+  margin: 0 auto;
+}
+
+.padding {
+  padding: 1rem;
+}
+
+/* Developer Icons */
+.fa-html5 {
+  color: #26413c;
+}
+
+.fa-css3 {
+  color: #2163af;
+}
+
+.fa-js {
+  color: #5DA9E9;
+}
+
+.fa-code {
+  color: #003366;
+  font-size: 8rem;
+}
+
+.fa-bootstrap {
+  color: #602C50;
+}
+
+.fa-html5, .fa-js, .fa-css3, .fa-bootstrap {
+  font-size: 1.5rem;
+  margin: 1rem;
+}
+
+
+hr {
+  border: 0;
+  height: 0;
+  border-top: 1px solid #2c514c;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+
+#footer {
+  position: fixed;
+  height: 50px;
+  background-color: #577399;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  margin-bottom: 0px;
+}
+
+
+#overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  filter:alpha(opacity=80);
+  -moz-opacity:0.8;
+  -khtml-opacity: 0.8;
+  opacity: 0.8;
+  z-index: 10000;
+  display: none;
+}
+
+li{
+  list-style-type: none;
+}
+.space{
+  margin-top: 4rem;
+}
+
+.row--top--buffer{
+  margin-top:1.3rem;
+}
+
+.answer pre, .answer span{
+  color: #FFFDFD !important;
+  text-align: left !important;
+  margin-bottom: 0 !important;
+}
+
+.answer pre:hover, .answer span:hover {
+  color: #FFFDFD !important;
+}
+
+.answer{
+  text-align: left !important;
+}
+
+.selectedAnswer{
+  background-color: #CBD2D0 !important;
+  border: none !important;
+  color: #222 !important;
+}
+
+.selectedAnswer:hover{
+  background-color: #CBD2D0 !important;
+  color: #222 !important;
+}
+
+.vh-50{
+  height: 50vh !important;
+}
+
+.example{
+  background-color: white;
+}
+
+.devby{
+  margin-left: 1rem;
+}
+
+
+@media (max-height: 990px){
+  footer{
+    display: none !important;
+  }
+  .vh-50 {
+    height: 30vh !important;
+  }
+  #navFooter{
+    display: block;
+  }
+}
